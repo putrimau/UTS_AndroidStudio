@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity3">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#dbd469"
+        android:gravity="center"
+        android:padding="10pt"
+        android:text="BIODATA"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgNotice"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:src="@drawable/woman"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#c4be62"
+        android:gravity="center"
+        android:padding="10pt"
+        android:text="Putri Maulidiyah"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#c4be62"
+        android:gravity="center"
+        android:padding="10pt"
+        android:text="NIM 191103583"
+        android:textColor="#ffffff"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#c4be62"
+        android:gravity="center"
+        android:padding="10pt"
+        android:text="For UTS Android Mobile"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#c4be62"
+        android:gravity="center"
+        android:padding="8pt"
+        android:text="25 April 2022"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#c4be62"
+        android:gravity="center"
+        android:padding="10pt"
+        android:text="Class 6A3"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        />
+
+</LinearLayout>
